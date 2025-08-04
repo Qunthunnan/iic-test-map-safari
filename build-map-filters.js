@@ -36706,6 +36706,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
         zoomToFilteredSites(data);
         map.on("click", "site-points-layer", (e) => {
           const isMobile = window.innerWidth <= 767;
+          const isTouch = e.originalEvent?.sourceCapabilities?.firesTouchEvents;
           const featuresProps2 = getFeaturesProps();
           const featureId = e.features[0].properties.id;
           const props = featuresProps2[featureId];
@@ -36737,12 +36738,26 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
               sitePopup.classList.add(`${sitePopupClass}--active`);
             });
           }
+          if (isTouch) {
+            const feature2 = e.features?.[0];
+            const newId = feature2?.id;
+            if (newId !== currentlyHoveredId) {
+              if (currentlyHoveredId !== null) {
+                unhighlightMapSite(currentlyHoveredId);
+              }
+              if (newId !== null && newId !== void 0) {
+                highlightMapSite(newId, feature2);
+              }
+              currentlyHoveredId = newId;
+            }
+          }
           const closeBtn = document.querySelector(".mapboxgl-popup-close-button");
           const clearActivePopupState = (e2) => {
             const popupEl = document.querySelector(".mapboxgl-popup-content");
             if (popupEl && popupEl.contains(e2.target)) {
               return;
             }
+            if (isTouch) unhighlightMapSite(currentlyHoveredId);
             activeSitePopup = null;
             mapContainer.removeEventListener("click", clearActivePopupState);
             closeBtn.removeEventListener("click", clearActivePopupState);
