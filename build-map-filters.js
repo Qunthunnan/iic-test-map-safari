@@ -30903,8 +30903,8 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
       center: [-72.61177, 42.58554],
       zoom: 6.3,
       attributionControl: false,
-      pixelRatio: window.devicePixelRatio || 1
-      // cooperativeGestures: true,
+      pixelRatio: window.devicePixelRatio || 1,
+      cooperativeGestures: true
     });
     return map2;
   }
@@ -36706,7 +36706,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
         zoomToFilteredSites(data);
         map.on("click", "site-points-layer", (e) => {
           const isMobile = window.innerWidth <= 767;
-          const isTouch = e.originalEvent?.sourceCapabilities?.firesTouchEvents;
+          const isTouch = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
           const featuresProps2 = getFeaturesProps();
           const featureId = e.features[0].properties.id;
           const props = featuresProps2[featureId];
@@ -36714,8 +36714,6 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
           const popupHtml = formatSitePopup(props);
           const pixel = map.project([props.longitude, props.latitude]);
           const { anchor, offset } = getPopupAnchorAndOffset(pixel, props.relevance);
-          console.log(`offset:`);
-          console.log(offset);
           new import_mapbox_gl.default.Popup({ anchor: isMobile ? "bottom" : anchor }).setLngLat([props.longitude, props.latitude]).setOffset(offset).setHTML(popupHtml).addTo(map);
           activeSitePopup = { ...props };
           const sitePopup = document.querySelector(`.${sitePopupClass}`);
@@ -36766,7 +36764,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
           closeBtn.addEventListener("click", clearActivePopupState);
         });
         map.on("mousemove", "site-points-layer", (e) => {
-          const isTouch = e.originalEvent?.sourceCapabilities?.firesTouchEvents;
+          const isTouch = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
           if (!isTouch) {
             map.getCanvas().style.cursor = "pointer";
             const feature2 = e.features?.[0];
