@@ -141,6 +141,7 @@
   var isMobile = window.innerWidth <= 767;
   if (isMobile) {
     const map = document.querySelector(".map");
+    const wrapper = document.querySelector(".grid._12-col.radius-2");
     const header = document.querySelector(
       ".flex.justify-space-between.align-center.width-100-pct.padding-vertical.padding-0-75"
     );
@@ -148,6 +149,7 @@
       ".flex.vertical.gap-2._4-col.padding-2.c_dotted-border.overflow-auto"
     );
     const section = document.querySelector(".section.padding-5.t_padding-3.m_padding-2");
+    if (wrapper) wrapper.style["border-radius"] = "0px";
     if (header) header.style.display = "none";
     if (section) section.style.padding = "0px 0px 0px 0px";
     if (map) map.style.width = "100vw";

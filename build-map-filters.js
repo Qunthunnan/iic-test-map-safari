@@ -30965,7 +30965,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
     };
     const colorMapAccess = {
       clean: "#0000FF",
-      boat: "#FFFF00",
+      boat: "#FFBB00",
       notClean: "#FF0000"
     };
     for (const quality of qualities) {
@@ -36570,27 +36570,27 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
 
   // src/blocks-layout/popupOutlook.html
   init_live_reload();
-  var popupOutlook_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" style="display:IMG_DISPLAY" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">SITE_PREDICTION</span><div class="site-popup_measurements"><div style="width:FIRST_MEASURE_WIDTH;background-color:FIRST_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:SECOND_MEASURE_WIDTH;background-color:SECOND_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:THIRD_MEASURE_WIDTH;background-color:THIRD_MEASURE_COLOR" class="site-popup_measure"></div></div><a target="_blank" class="site-popup_link" href="SITE_LINK">View more details \u2192</a></div></div>';
+  var popupOutlook_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" style="display:IMG_DISPLAY" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">SITE_PREDICTION</span><div class="site-popup_measurements"><div style="width:FIRST_MEASURE_WIDTH;background-color:FIRST_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:SECOND_MEASURE_WIDTH;background-color:SECOND_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:THIRD_MEASURE_WIDTH;background-color:THIRD_MEASURE_COLOR" class="site-popup_measure"></div></div><a target="_blank" class="site-popup_link" href="SITE_LINK">View more details \u2192</a></div></div>';
 
   // src/blocks-layout/popupGeneral.html
   init_live_reload();
-  var popupGeneral_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">LAST_SAMPLE_TAKEN: SITE_QUALITY</span><div class="site-popup_measurements"><div style="width:100%;background-color:QUALITY_GENERAL_COLOR" class="site-popup_measure"></div></div><a class="site-popup_link" target="_blank" href="SITE_LINK">View more details \u2192</a></div></div>';
+  var popupGeneral_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">LAST_SAMPLE_TAKEN: SITE_QUALITY</span><div class="site-popup_measurements"><div style="width:100%;background-color:QUALITY_GENERAL_COLOR" class="site-popup_measure"></div></div><a class="site-popup_link" target="_blank" href="SITE_LINK">View more details \u2192</a></div></div>';
 
   // src/blocks-layout/popupNoData.html
   init_live_reload();
-  var popupNoData_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">No sample data on this monitoring site</span> <a class="site-popup_link" href="SITE_LINK">View more details \u2192</a></div></div>';
+  var popupNoData_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">No sample data on this monitoring site</span> <a class="site-popup_link" href="SITE_LINK">View more details \u2192</a></div></div>';
 
   // src/blocks-layout/popupOutlookEs.html
   init_live_reload();
-  var popupOutlookEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" style="display:IMG_DISPLAY" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">SITE_PREDICTION</span><div class="site-popup_measurements"><div style="width:FIRST_MEASURE_WIDTH;background-color:FIRST_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:SECOND_MEASURE_WIDTH;background-color:SECOND_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:THIRD_MEASURE_WIDTH;background-color:THIRD_MEASURE_COLOR" class="site-popup_measure"></div></div><a target="_blank" class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
+  var popupOutlookEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" style="display:IMG_DISPLAY" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">SITE_PREDICTION</span><div class="site-popup_measurements"><div style="width:FIRST_MEASURE_WIDTH;background-color:FIRST_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:SECOND_MEASURE_WIDTH;background-color:SECOND_MEASURE_COLOR" class="site-popup_measure"></div><div style="width:THIRD_MEASURE_WIDTH;background-color:THIRD_MEASURE_COLOR" class="site-popup_measure"></div></div><a target="_blank" class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
 
   // src/blocks-layout/popupGeneralEs.html
   init_live_reload();
-  var popupGeneralEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">LAST_SAMPLE_TAKEN: SITE_QUALITY</span><div class="site-popup_measurements"><div style="width:100%;background-color:QUALITY_GENERAL_COLOR" class="site-popup_measure"></div></div><a class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
+  var popupGeneralEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">LAST_SAMPLE_TAKEN: SITE_QUALITY</span><div class="site-popup_measurements"><div style="width:100%;background-color:QUALITY_GENERAL_COLOR" class="site-popup_measure"></div></div><a class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
 
   // src/blocks-layout/popupNoDataEs.html
   init_live_reload();
-  var popupNoDataEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div style="padding:WRAPPER_PADDING" class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">No hay datos de muestreo en este punto de control</span> <a class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
+  var popupNoDataEs_default = '<div class="site-popup"><a href="SITE_LINK" target="_blank" class="site-popup_image-wrapper">IMG_SRC</a><div class="site-popup_text-wrapper"><a href="SITE_LINK" target="_blank" class="site-popup_heading">SITE_NAME</a> <span class="site-popup_descr">No hay datos de muestreo en este punto de control</span> <a class="site-popup_link" href="SITE_LINK">Ver m\xE1s detalles \u2192</a></div></div>';
 
   // src/utils/html-to-element.js
   init_live_reload();
@@ -36781,7 +36781,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
           }
         });
         map.on("mouseleave", "site-points-layer", (e) => {
-          const isTouch = e.originalEvent?.sourceCapabilities?.firesTouchEvents;
+          const isTouch = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
           if (!isTouch) {
             map.getCanvas().style.cursor = "";
             if (currentlyHoveredId !== null) {
@@ -37048,7 +37048,10 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
       predictionSortedEntries = formatPercentages(predictionSortedEntries);
       predictionText = generateTextPrediction(predictionSortedEntries);
     }
-    return popupHtml.replace("SITE_NAME", site.name).replace("IMG_SRC", site.image ? `<img src="${site.image}" alt="site image" />` : "").replace("SITE_PREDICTION", predictionText).replace("SITE_QUALITY", getSiteQuality(site)).replace("WRAPPER_PADDING", site.image ? "" : "35px 16px 16px 16px").replace("QUALITY_GENERAL_COLOR", colors[siteType.quality]).replace("LAST_SAMPLE_TAKEN", formatter.format(site.date)).replace("LAST_SAMPLE_VALUE", `${site.qualityValue} MPN/100mL`).replace("FIRST_MEASURE_WIDTH", `calc(${predictionSortedEntries?.[0]?.[1]}% - 4px)`).replace("FIRST_MEASURE_COLOR", colors[predictionSortedEntries?.[0]?.[0]]).replace("SECOND_MEASURE_WIDTH", `${predictionSortedEntries?.[1]?.[1]}%`).replace("SECOND_MEASURE_COLOR", colors[predictionSortedEntries?.[1]?.[0]]).replace("THIRD_MEASURE_WIDTH", `${predictionSortedEntries?.[2]?.[1]}%`).replace("THIRD_MEASURE_COLOR", colors[predictionSortedEntries?.[2]?.[0]]).replaceAll(
+    return popupHtml.replace("SITE_NAME", site.name).replace(
+      "IMG_SRC",
+      site.image ? `<img class="popup-image" src="${site.image}" alt="site image" />` : ""
+    ).replace("SITE_PREDICTION", predictionText).replace("SITE_QUALITY", getSiteQuality(site)).replace("QUALITY_GENERAL_COLOR", colors[siteType.quality]).replace("LAST_SAMPLE_TAKEN", formatter.format(site.date)).replace("LAST_SAMPLE_VALUE", `${site.qualityValue} MPN/100mL`).replace("FIRST_MEASURE_WIDTH", `calc(${predictionSortedEntries?.[0]?.[1]}% - 4px)`).replace("FIRST_MEASURE_COLOR", colors[predictionSortedEntries?.[0]?.[0]]).replace("SECOND_MEASURE_WIDTH", `${predictionSortedEntries?.[1]?.[1]}%`).replace("SECOND_MEASURE_COLOR", colors[predictionSortedEntries?.[1]?.[0]]).replace("THIRD_MEASURE_WIDTH", `${predictionSortedEntries?.[2]?.[1]}%`).replace("THIRD_MEASURE_COLOR", colors[predictionSortedEntries?.[2]?.[0]]).replaceAll(
       "SITE_LINK",
       `${window.location.origin}${lang !== "en" ? `/${lang}` : ""}/sites/${site.slug}`
     );
@@ -38089,15 +38092,21 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
       tab.setFunction(catchedState);
       const isInitialized = getIsInitialized();
       if (isInitialized) {
-        reRenderInputs();
+        setUrlQuery(tab.tabParam, catchedState);
+        if (tab.tabParam === "administrative") {
+          reRenderInputs();
+          setSelectedInputLevel3(0);
+          updateBoundaryOutline({ clearOnly: true });
+          const sites = filterSites();
+          updateMarkers(sites, true);
+        }
       }
       if (tab.tabParam === "quality") {
         rebuildPopup();
         map.fire("manualUpdate");
+        const sites = filterSites();
+        updateMarkers(sites);
       }
-      const sites = filterSites();
-      updateBoundaryOutline({ clearOnly: true });
-      updateMarkers(sites, true);
     }
   }
   function handleTabs(state) {
@@ -38417,15 +38426,11 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
 
   // src/blocks-layout/site-popup.css
   init_live_reload();
-  var site_popup_default = ".mapboxgl-popup-content:has(.site-popup){height:0;border-radius:20px;padding:0;overflow:hidden;-webkit-box-shadow:0 0 17px -9px #42445a;-moz-box-shadow:0 0 17px -9px #42445a;box-shadow:0 0 17px -9px #42445a}.mapboxgl-popup-tip{display:none!important}.site-popup{height:0;width:245px;font-size:14px;color:var(--general-text-color)}.site-popup_image-wrapper{display:block;width:100%;max-height:80px;overflow:hidden}.site-popup_image-wrapper img{width:100%;height:100%;object-fit:cover;object-position:center}.site-popup_text-wrapper{background-color:#fff;padding:16px}.site-popup_heading{font-size:14px;font-weight:600;text-decoration:none}.site-popup_heading,.site-popup_heading:link,.site-popup_heading:visited{color:var(--general-text-color)}.site-popup_descr{font-size:13px;display:block;margin:6px 0 0;user-select:auto}.site-popup_measurements{width:0%;display:flex;margin:4px 0 0;gap:2px}.site-popup_measure{border-radius:4px;height:12px}.site-popup_link{display:block;margin:6px 0 0;font-size:12px;color:var(--light-text-color)}.site-popup_link:link,.site-popup_link:visited{text-decoration:none;color:var(--light-text-color)}.site-popup_link:hover{color:var(--vater-main-color)}@media (max-width:767px){.mapboxgl-popup{min-width:100%;position:absolute;bottom:0;z-index:4;transform:translate(0,0)!important}.mapboxgl-popup-content,.site-popup{width:100%}.site-popup_image-wrapper{max-height:120px}.site-popup_measure{height:16px}}";
+  var site_popup_default = ".mapboxgl-popup-content:has(.site-popup){height:0;border-radius:20px;padding:0;overflow:hidden;-webkit-box-shadow:0 0 17px -9px #42445a;-moz-box-shadow:0 0 17px -9px #42445a;box-shadow:0 0 17px -9px #42445a}.mapboxgl-popup-tip{display:none!important}.mapboxgl-popup-close-button{transition:background .5s;font-weight:100;right:5px;top:5px;font-size:19px;background:rgb(119 119 119/23%);backdrop-filter:blur(50px);color:#fff;border-radius:100%;width:30px;height:30px;align-items:center;justify-content:center;display:flex;padding:0}.site-popup{height:0;width:245px;font-size:14px;color:var(--general-text-color)}.site-popup_image-wrapper{display:block;width:100%;max-height:80px;overflow:hidden}.popup-image{width:100%;height:100%;object-fit:cover;object-position:center}.mapboxgl-popup-content:has(.popup-image) .site-popup_text-wrapper{padding:16px}.site-popup_text-wrapper{background-color:#fff;padding:35px 16px 16px}.site-popup_heading{font-size:14px;font-weight:600;text-decoration:none}.site-popup_heading,.site-popup_heading:link,.site-popup_heading:visited{color:var(--general-text-color)}.site-popup_descr{font-size:13px;display:block;margin:6px 0 0;user-select:auto}.site-popup_measurements{width:0%;display:flex;margin:4px 0 0;gap:2px}.site-popup_measure{border-radius:4px;height:12px}.site-popup_link{display:block;margin:6px 0 0;font-size:12px;color:var(--light-text-color)}.site-popup_link:link,.site-popup_link:visited{text-decoration:none;color:var(--light-text-color)}.site-popup_link:hover{color:var(--vater-main-color)}@media (max-width:767px){.mapboxgl-popup{min-width:100%;position:absolute;bottom:0;z-index:4;transform:translate(0,0)!important}.mapboxgl-popup-content:has(.site-popup){border-bottom:2px dashed var(--color--cloud-soft);border-radius:20px 20px 0 0;width:100%}.mapboxgl-popup-close-button{height:40px;width:40px;top:8px;right:8px;font-size:32px}.mapboxgl-popup-content:has(.popup-image) .site-popup_text-wrapper{padding:16px 16px 37px}.site-popup_text-wrapper{padding:35px 16px 37px}.site-popup{width:100%}.site-popup_image-wrapper{max-height:120px}.site-popup_measure{height:16px}}";
 
   // src/blocks-layout/image.css
   init_live_reload();
-  var image_default2 = ".map_image-bar{display:none;transform:translateY(100%);cursor:grab;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}.map_image-bar.dragging{cursor:grabbing}.map_image-bar::-webkit-scrollbar{display:none}.map_site-image{transition:box-shadow .2s ease,transform .2s ease;position:relative;text-decoration:none;-webkit-user-drag:none;user-drag:none;user-select:none;font-size:10px;display:block;width:150px;height:100px;overflow:hidden;flex:0 0 150px;border-radius:6px;box-shadow:0 4px 30px rgba(0,0,0,.1)}.map_site-img{object-position:center;object-fit:cover;width:100%;height:100%}.map_site-image:hover{box-shadow:0 0 16px rgba(255,255,255,.3);transform:scale(1.02)}.map_site-image-name{transform:translateX(-50%);left:50%;width:100%;bottom:0;padding:0 5px 5px 10px;position:absolute}.map_site-image-name span{color:#fff;text-align:center;line-height:10px}.map_site-image-name img{margin:0 4px 0 0;object-position:center;object-fit:cover}.map_site-image img,span{-webkit-user-drag:none;user-drag:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}";
-
-  // src/blocks-layout/popup.css
-  init_live_reload();
-  var popup_default = ".mapboxgl-popup-close-button{transition:background .5s;font-weight:100;right:5px;top:5px;font-size:19px;background:rgb(119 119 119/23%);backdrop-filter:blur(50px);color:#fff;border-radius:100%;width:30px;height:30px;align-items:center;justify-content:center;display:flex;padding:0}";
+  var image_default2 = ".map_image-bar{display:none;transform:translateY(100%);cursor:grab;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}.map_image-bar.dragging{cursor:grabbing}.map_image-bar::-webkit-scrollbar{display:none}.map_site-image{transition:box-shadow .2s ease,transform .2s ease;position:relative;text-decoration:none;-webkit-user-drag:none;user-drag:none;user-select:none;font-size:10px;display:block;width:140px;height:100px;overflow:hidden;flex:0 0 140px;border-radius:6px;box-shadow:0 4px 30px rgba(0,0,0,.1)}.map_site-img{object-position:center;object-fit:cover;width:100%;height:100%}.map_site-image:hover{box-shadow:0 0 16px rgba(255,255,255,.3);transform:scale(1.02)}.map_site-image-name{transform:translateX(-50%);left:50%;width:100%;bottom:0;padding:0 5px 5px 10px;position:absolute}.map_site-image-name span{color:#fff;text-align:center;line-height:10px}.map_site-image-name img{margin:0 4px 0 0;object-position:center;object-fit:cover}.map_site-image img,span{-webkit-user-drag:none;user-drag:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}@media (max-width:767px){.map:has(.site-popup) .map_image-bar{opacity:0!important}}";
 
   // src/blocks-layout/map-scroll-overlay.css
   init_live_reload();
@@ -38433,7 +38438,7 @@ ${o2.vertexSource}`, this.forceManualRenderingForInstanceIDShaders && (_2 = _2.r
 
   // src/modules/process-styles.js
   function processSyles() {
-    const styles = [variables_default, map_scroll_overlay_default, popup_default, hover_popup_default, site_popup_default, image_default2];
+    const styles = [variables_default, map_scroll_overlay_default, hover_popup_default, site_popup_default, image_default2];
     const styleElement = document.createElement("style");
     styleElement.innerHTML = `${styles.join("")}`;
     document.body.append(styleElement);
